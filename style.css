@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+  color: white;
+  transition: 0.7s ease;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+.topnav {
+  background-color: rgb(255, 0, 0);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  border-bottom: 2px solid white;
+  margin: 15px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #eb4848;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ec5959;
+  color: white;
+}
+.content {
+  background-image: linear-gradient(to bottom, red, rgb(233, 91, 91));
+  height: 87vh;
+}
+.header {
+  padding: 100px;
+  padding-top: 50px;
+}
+.main {
+  font-size: 7em;
+  color: white;
+}
+.name {
+  font-family: "Caveat";
+}
+.code {
+  padding: 15px;
+  margin: 15px;
+  background: black;
+}
+.str {
+  color: rgb(0, 38, 255);
+}
+.var {
+  color: chartreuse;
+}
+.experience {
+  text-align: center;
+  padding: 40px;
+  font-size: 2em;
+}
+.list {
+  text-align: center;
+  padding: 25px;
+}
+.comment {
+  color: grey;
+}
+.insta {
+  font-size: 1.5em;
+  padding: 50px;
+  background: #e9c421;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.email {
+  font-size: 1.5em;
+  padding: 50px;
+}
