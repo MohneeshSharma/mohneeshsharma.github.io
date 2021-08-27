@@ -56,8 +56,9 @@
   padding: 15px;
   margin: 15px;
   background: black;
-  font-family: 'Roboto Mono';
 }
+.code h2 {
+  font-family: 'Roboto Mono';
 .str {
   color: rgb(0, 38, 255);
 }
