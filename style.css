@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -55,6 +56,7 @@
   padding: 15px;
   margin: 15px;
   background: black;
+  font-family: 'Roboto Mono';
 }
 .str {
   color: rgb(0, 38, 255);
