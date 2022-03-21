@@ -6,9 +6,17 @@
     transition: 1s;
     font-family: 'Montserrat';
 }
+
+/*
+darkest - #10445a
+abitlightdark- #354551
+darklight-  #2a8cae
+lightest #90b0c0
+*/
+
 .topnav {
     text-align: center;
-    background-color: #0D1321;
+    background-color: #10445a;
     overflow: hidden;
     padding: 20px;
   }
@@ -64,9 +72,9 @@
     }
   }
   .body{
-      background-image: linear-gradient(to bottom, #0D1321,#1D2D44);
+      background-image: linear-gradient(to bottom, #10445a,#1D2D44);
       color: white;
-      height: 80vh;
+      height: 80.1vh;
   }
   .welcome {
       transition: 1s;
@@ -94,6 +102,7 @@
     font-size: 1.5em;
     padding: 50px;
   }
-  .content {
-    background-image: linear-gradient(to bottom, #0D1321, #1D2D44);
+
+  .lolP{
+    text-align: center;
   }
