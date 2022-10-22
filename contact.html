@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohneesh Sharma</title>
     <link rel="stylesheet" href="style.css">
-    <script defer>
-        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
 </head>
-
 <body>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <div class="topnav" id="myTopnav">
-        <a href="/">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="contact.html" class="active">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
     <div class="body">
-        <h1 class="lol">My insta - @mohneeshsharma
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+        </div>
+        <div class="welcome">
+            <h1 class="intro">Contact Mohneesh.</h1>
+            <h2 class="sub-intro">Student. Writer. Creator.</h2>
+        </div>
+        <div class="container">
+            <div class="center">
+                <button class="imgbuton"><a href="https://www.instagram.com/mohneeshsharma" target="_blank"><img src="instagram.png" alt=""></a></button>
+                <button class="imgbuton"><a href="mailto:mohneeshsharma1@gmail.com" target="_blank"><img src="email.png" alt=""></a></button>
+                <button class="imgbuton"><a href="https://www.github.com/MohneeshSharma" target="_blank"><img src="github.png" alt=""></a></button>
 
-        </h1>
+            </div>
+        </div>
+        
+
     </div>
 </body>
-
 </html>
